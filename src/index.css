@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  height: 100vh;
+  color: white;
+  background: radial-gradient( rgb(63, 82, 189) , #b7b8ec );
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+  padding:7px;
+  padding-left:20px;
+  padding-right:20px;
+  background: radial-gradient( rgb(136, 146, 198) , #aeaedd );
+  border-radius: 30px;
+  color: white;
+  border: 1px hidden white;
+}
+
+button:hover{
+  border: 2px solid white;
+  transform: scale(1.01);
+  transition: 0.1s;
+}
